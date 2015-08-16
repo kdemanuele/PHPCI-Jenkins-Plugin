@@ -6,11 +6,13 @@ Place the file under the folder <path to PHPCI>/PHPCI/plugins
 
 # Add to project
 In the PHPCI Project config section add the Jenkins trigger
+```
 complete:
     jenkins:
        url: "<url to jenkins>"
        project: "<project on which the build is called"
        token: "<if build require a login put an API Token here>"
+```
 
 # Set Jenkins to accept token Build
 1. Go to the Project configuration
